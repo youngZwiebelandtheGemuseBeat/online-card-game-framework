@@ -11,7 +11,8 @@ a {
 /* Homepage 
     sets a background image and covers the entire viewport height */
 .Homepage {
-  background-image: url('./assets/Landing-Page.gif');
+  /* background-image: url('./assets/Landing-Page.gif'); */
+  background-image: url('./assets/backgrounds/bgY.png');
   background-size: cover;
   margin: 0;
   height: 100vh;

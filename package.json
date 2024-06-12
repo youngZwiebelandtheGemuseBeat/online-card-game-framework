@@ -10,14 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mizanxali/uno-online.git"
+    "url": "git+https://github.com/youngZwiebelandtheGemuseBeat/online-card-game-framework.git"
   },
   "author": "Luca Candussi",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mizanxali/uno-online/issues"
-  },
-  "homepage": "https://github.com/mizanxali/uno-online#readme",
+  "homepage": "https://github.com/youngZwiebelandtheGemuseBeat/online-card-game-framework#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",

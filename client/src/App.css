@@ -93,7 +93,8 @@ a {
   height: 100px;
 }
 
-/* styles the image inside the top info section */
+/* styles the image inside the top info section
+    that is the box on the top left */
 .topInfo>img {
   width: 7%;
   margin: 0;

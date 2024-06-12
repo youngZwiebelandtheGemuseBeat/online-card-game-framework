@@ -1,10 +1,6 @@
-> Update: I have run out of Heroku credits and can no longer continue to keep the game deployed. Feel free to clone the repo and run it locally on your machine. Thanks!
-
-<h1 align="center">UNO ONLINE</h1>
-<h2 align="center">Two player online game of UNO</h2>
-<h3 align="center">Was previously live at https://uno-online-multiplayer.herokuapp.com</h3>
-
-<img src="client/src/assets/logo.png" alt="UNO Logo" width="33%" align="center" />
+<h1 align="center">REUSABLE ONLINE CARD GSME FRAMEWORK</h1>
+<h2 align="center">Two/More player online game</h2>
+<h3 align="center"></h3>
 
 ## 🤔 What is UNO?
 
@@ -16,9 +12,9 @@ Read the complete rules of UNO [here](https://www.unorules.com/).
 
 ## ❓ About the Game
 
-This two-player online version of the game was built with [React](https://reactjs.org/), [Socket.IO](https://socket.io/), [Express](https://expressjs.com/) and [Node](https://nodejs.org/en/). It currently supports two-players in each game. It also has text chat functionality to communicate with your opponent!
+This two-player online version of UNO was built with [React](https://reactjs.org/), [Socket.IO](https://socket.io/), [Express](https://expressjs.com/) and [Node](https://nodejs.org/en/) and is based on _mizanxali-uno-online_. It currently supports two-players in each game. It also has text chat functionality to communicate with your opponent!
 
-[How I Made This Game](https://www.youtube.com/watch?v=FBAJdbpFnjs)
+[Based on](https://www.youtube.com/watch?v=FBAJdbpFnjs)
 
 ## 🧐 How to Play?
 
@@ -83,7 +79,7 @@ npm run build
 
 This command gets the client running on localhost port 3000.
 
-Head over to http://localhost:3000/ and enjoy the game! 🎉
+Head over to http://localhost:3000/ or http://<your_local_ip(```en0:inet```)>:3000/ and enjoy the game! 🎉
 
 
 ## 🤝 Contributing
@@ -100,6 +96,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## ❤️ Acknowledgements
 
+* [Mizan Ali](https://github.com/mizanxali/uno-online) basis for my backend
 * [Chirantan P](https://www.linkedin.com/in/chirantan-pradhan-76673019b/) for the background images
 * [AlexDer](https://alexder.itch.io/) for the UNO cards assets
 * [3mil1](https://codepen.io/3mil1) for the button designs

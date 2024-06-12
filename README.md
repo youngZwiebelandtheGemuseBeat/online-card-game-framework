@@ -6,7 +6,7 @@
 
 This two-player online version of UNO was built with [React](https://reactjs.org/), [Socket.IO](https://socket.io/), [Express](https://expressjs.com/) and [Node](https://nodejs.org/en/) and is based on [_mizanxali-uno-online_](https://github.com/mizanxali/uno-online). It currently supports two-players in each game. It also has text chat functionality to communicate with your opponent!
 
-[Based on](https://www.youtube.com/watch?v=FBAJdbpFnjs)
+[Youtube](https://www.youtube.com/watch?v=FBAJdbpFnjs)
 
 ## 🧐 How to Play?
 

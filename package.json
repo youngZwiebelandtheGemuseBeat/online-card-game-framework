@@ -16,7 +16,7 @@
   },
   "author": "Luca Candussi",
   "license": "ISC",
-  "homepage": "https://youngZwiebelandtheGemuseBeat.github.io/online-card-game-framework/",
+  "homepage": "https://youngZwiebelandtheGemuseBeat.github.io/online-card-game-framework",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",

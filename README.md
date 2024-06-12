@@ -2,14 +2,6 @@
 <h2 align="center">Two/More player online game</h2>
 <h3 align="center"></h3>
 
-## 🤔 What is UNO?
-
-UNO is the classic and beloved card game that’s easy to pick up and impossible to put down! Players take turns matching a card in their hand with the current card shown on top of the deck either by color or number. Special action cards deliver game-changing moments as they each perform a function to help you defeat your opponents. These include skips, reverses, draw twos, color-changing wild and draw four wild cards.
-
-## ⚠️ Game Rules
-
-Read the complete rules of UNO [here](https://www.unorules.com/).
-
 ## ❓ About the Game
 
 This two-player online version of UNO was built with [React](https://reactjs.org/), [Socket.IO](https://socket.io/), [Express](https://expressjs.com/) and [Node](https://nodejs.org/en/) and is based on _mizanxali-uno-online_. It currently supports two-players in each game. It also has text chat functionality to communicate with your opponent!

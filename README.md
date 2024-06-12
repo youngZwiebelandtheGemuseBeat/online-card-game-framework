@@ -23,11 +23,6 @@ This two-player online version of UNO was built with [React](https://reactjs.org
 3. To join a friend's game, enter the game code given by them, and click on JOIN GAME.
 4. That's it! Enjoy the game and remember, no toxicity!
 
-## 🎮 Screenshots
-<img src="screenshots/Screenshot-1.png" alt="Screenshot 1" width="75%" align="center" />
-<img src="screenshots/Screenshot-2.png" alt="Screenshot 2" width="75%" align="center" />
-<img src="screenshots/Screenshot-3.png" alt="Screenshot 3" width="75%" align="center" />
-
 ## 🏁 Getting Started (to run game locally)
 
 Follow the steps below, after cloning the repository:

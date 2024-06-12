@@ -1,0 +1,19 @@
+/* sets global styles and imports a font from Google Fonts 
+    - import the "Carter One" font from Google Fonts
+    - eset margin and padding for all elements
+    - set the font family and color for the body element 
+*/
+@import url('https://fonts.googleapis.com/css?family=Carter+One');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Carter One', sans-serif;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

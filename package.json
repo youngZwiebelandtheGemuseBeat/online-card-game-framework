@@ -1,26 +1,25 @@
 {
   "name": "online-card-game-framework",
   "version": "1.0.0",
-  "description": "online multiplayer card game framework",
+  "description": "reusable online multiplayer card game framework",
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "client": "npm start --prefix client",
-    "predeploy": "npm run build --prefix client",
-    "deploy": "gh-pages -d client/build",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "client": "npm start --prefix client"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/youngZwiebelandtheGemuseBeat/online-card-game-framework.git"
+    "url": "git+https://github.com/mizanxali/uno-online.git"
   },
   "author": "Luca Candussi",
   "license": "ISC",
-  "homepage": "https://youngzwiebelandthegemusebeat.github.io/online-card-game-framework/",
+  "bugs": {
+    "url": "https://github.com/mizanxali/uno-online/issues"
+  },
+  "homepage": "https://github.com/mizanxali/uno-online#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "gh-pages": "^6.1.1",
     "socket.io": "^4.7.5"
   }
 }

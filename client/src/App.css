@@ -11,7 +11,6 @@ a {
 /* Homepage 
     sets a background image and covers the entire viewport height */
 .Homepage {
-  /* background-image: url('./assets/Landing-Page.gif'); */
   background-image: url('./assets/backgrounds/bgY.png');
   background-size: cover;
   margin: 0;
@@ -93,8 +92,8 @@ a {
   height: 100px;
 }
 
-/* styles the image inside the top info section
-    that is the box on the top left */
+/* styles the image inside the top info section 
+    = empty box @ top left */
 .topInfo>img {
   width: 7%;
   margin: 0;

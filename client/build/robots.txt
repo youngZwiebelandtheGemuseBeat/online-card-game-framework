@@ -1,0 +1,8 @@
+# provides instructions to web crawlers (bots) about which
+# pages or sections of a website should not be crawled or
+# indexed. This helps control how search engines index the
+# site and which parts of the site they can access
+
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:

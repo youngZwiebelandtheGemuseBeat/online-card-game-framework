@@ -23,7 +23,7 @@ import gameOverSound from '../assets/sounds/game-over-sound.mp3'
 
 let socket
 const ENDPOINT = 'http://localhost:5000'
-// const ENDPOINT = 'https://uno-online-multiplayer.herokuapp.com/'
+// const ENDPOINT = 'https://youngzwiebelandthegemusebeat.github.io/online-card-game-framework/'
 
 const Game = (props) => {
     const data = queryString.parse(props.location.search)
@@ -1287,8 +1287,8 @@ const Game = (props) => {
                                 <div className="chat-head">
                                     <h2>Chat Box</h2>
                                     {!isChatBoxHidden ?
-                                    <span onClick={toggleChatBox} class="material-icons">keyboard_arrow_down</span> :
-                                    <span onClick={toggleChatBox} class="material-icons">keyboard_arrow_up</span>}
+                                    <span onClick={toggleChatBox} className="material-icons">keyboard_arrow_down</span> :
+                                    <span onClick={toggleChatBox} className="material-icons">keyboard_arrow_up</span>}
                                 </div>
                                 <div className="chat-body">
                                     <div className="msg-insert">
@@ -1351,8 +1351,8 @@ const Game = (props) => {
                                 <div className="chat-head">
                                     <h2>Chat Box</h2>
                                     {!isChatBoxHidden ?
-                                    <span onClick={toggleChatBox} class="material-icons">keyboard_arrow_down</span> :
-                                    <span onClick={toggleChatBox} class="material-icons">keyboard_arrow_up</span>}
+                                    <span onClick={toggleChatBox} className="material-icons">keyboard_arrow_down</span> :
+                                    <span onClick={toggleChatBox} className="material-icons">keyboard_arrow_up</span>}
                                 </div>
                                 <div className="chat-body">
                                     <div className="msg-insert">

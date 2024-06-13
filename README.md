@@ -1,24 +1,12 @@
-> Update: I have run out of Heroku credits and can no longer continue to keep the game deployed. Feel free to clone the repo and run it locally on your machine. Thanks!
-
-<h1 align="center">UNO ONLINE</h1>
-<h2 align="center">Two player online game of UNO</h2>
-<h3 align="center">Was previously live at https://uno-online-multiplayer.herokuapp.com</h3>
-
-<img src="client/src/assets/logo.png" alt="UNO Logo" width="33%" align="center" />
-
-## 🤔 What is UNO?
-
-UNO is the classic and beloved card game that’s easy to pick up and impossible to put down! Players take turns matching a card in their hand with the current card shown on top of the deck either by color or number. Special action cards deliver game-changing moments as they each perform a function to help you defeat your opponents. These include skips, reverses, draw twos, color-changing wild and draw four wild cards.
-
-## ⚠️ Game Rules
-
-Read the complete rules of UNO [here](https://www.unorules.com/).
+<h1 align="center">REUSABLE ONLINE CARD GSME FRAMEWORK</h1>
+<h2 align="center">Two/More player online game</h2>
+<h3 align="center"></h3>
 
 ## ❓ About the Game
 
-This two-player online version of the game was built with [React](https://reactjs.org/), [Socket.IO](https://socket.io/), [Express](https://expressjs.com/) and [Node](https://nodejs.org/en/). It currently supports two-players in each game. It also has text chat functionality to communicate with your opponent!
+This two-player online version of UNO was built with [React](https://reactjs.org/), [Socket.IO](https://socket.io/), [Express](https://expressjs.com/) and [Node](https://nodejs.org/en/) and is based on [_mizanxali-uno-online_](https://github.com/mizanxali/uno-online). It currently supports two-players in each game. It also has text chat functionality to communicate with your opponent!
 
-[How I Made This Game](https://www.youtube.com/watch?v=FBAJdbpFnjs)
+[Youtube](https://www.youtube.com/watch?v=FBAJdbpFnjs)
 
 ## 🧐 How to Play?
 
@@ -26,11 +14,6 @@ This two-player online version of the game was built with [React](https://reactj
 2. To host a new game, click on CREATE GAME. A game code will be generated which you can share with your friend.
 3. To join a friend's game, enter the game code given by them, and click on JOIN GAME.
 4. That's it! Enjoy the game and remember, no toxicity!
-
-## 🎮 Screenshots
-<img src="screenshots/Screenshot-1.png" alt="Screenshot 1" width="75%" align="center" />
-<img src="screenshots/Screenshot-2.png" alt="Screenshot 2" width="75%" align="center" />
-<img src="screenshots/Screenshot-3.png" alt="Screenshot 3" width="75%" align="center" />
 
 ## 🏁 Getting Started (to run game locally)
 
@@ -44,7 +27,7 @@ Follow the steps below, after cloning the repository:
 
 **For Running:**
 
-- Change socket.IO endpoint on client side. To do this, go to `client/src/components/Game.js` and change line #26 from `const ENDPOINT = 'https://uno-online-multiplayer.herokuapp.com/'` to `const ENDPOINT = 'http://localhost:5000'`
+- Change socket.IO endpoint on client side. To do this, ~~go to `client/src/components/Game.js`~~ and change line #26 ~~from `const ENDPOINT = 'https://uno-online-multiplayer.herokuapp.com/'`~~ to `const ENDPOINT = 'http://localhost:5000'`
 
 ### ⏳ Installation
 
@@ -83,7 +66,7 @@ npm run build
 
 This command gets the client running on localhost port 3000.
 
-Head over to http://localhost:3000/ and enjoy the game! 🎉
+Head over to http://localhost:3000/ or http://<your_local_ip(```en0:inet```)>:3000/ and enjoy the game! 🎉
 
 
 ## 🤝 Contributing
@@ -100,6 +83,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## ❤️ Acknowledgements
 
+* [Mizan Ali](https://github.com/mizanxali/uno-online) basis for my backend
 * [Chirantan P](https://www.linkedin.com/in/chirantan-pradhan-76673019b/) for the background images
 * [AlexDer](https://alexder.itch.io/) for the UNO cards assets
 * [3mil1](https://codepen.io/3mil1) for the button designs

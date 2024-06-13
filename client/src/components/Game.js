@@ -5,6 +5,7 @@ import Spinner from './Spinner'
 import useSound from 'use-sound'
 
 import bgMusic from '../assets/sounds/game-bg-music.mp3'
+import logo from '../assets/logo.png'
 
 let socket
 const ENDPOINT = 'http://localhost:5000'
@@ -87,11 +88,11 @@ const Game = (props) => {
     }
     
     return (
-        <div className='Game backgroundColorR'>
+        <div className='Game backgroundColorWood'>
             {(!roomFull) ? <>
 
                 <div className='topInfo'>
-                    <img src={require('../assets/logo.png').default} />
+                    <img src={logo} alt="Game Logo" />
                     <h1>Game Code: {room}</h1>
                     <span>
                         <button className='game-button green' onClick={() => setSoundMuted(!isSoundMuted)}>{isSoundMuted ? <span className="material-icons">volume_off</span> : <span className="material-icons">volume_up</span>}</button>

@@ -11,7 +11,7 @@ a {
 /* Homepage 
     sets a background image and covers the entire viewport height */
 .Homepage {
-  background-image: url('./assets/backgrounds/bgY.png');
+  background-image: url('./assets/backgrounds/old-natural-wooden-background-min.png');
   background-size: cover;
   margin: 0;
   height: 100vh;
@@ -73,6 +73,10 @@ a {
   background-image: url('./assets/backgrounds/bgY.png');
 }
 
+.backgroundColorWood {
+  background-image: url('./assets/backgrounds/old-natural-wooden-background-min.png');
+}
+
 /* UNO Cards 
     fixed width, margin, and cursor pointer */
 .Card {
@@ -89,7 +93,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   padding: 0 60px;
-  height: 100px;
+  height: 180;  /* adjust to logo */
 }
 
 /* styles the image inside the top info section 

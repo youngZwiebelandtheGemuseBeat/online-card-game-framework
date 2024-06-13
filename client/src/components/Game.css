@@ -1,0 +1,21 @@
+.Game {
+  text-align: center;
+  margin: 20px;
+}
+
+.Deck {
+  margin: 10px;
+}
+
+.Card {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+}

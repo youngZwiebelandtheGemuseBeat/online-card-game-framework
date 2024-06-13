@@ -6,9 +6,9 @@
   "scripts": {
     "start": "node server",
     "client": "npm start --prefix client",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
     "predeploy": "npm run build --prefix client",
-    "deploy": "gh-pages -d client/build"
+    "deploy": "gh-pages -d client/build",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   },
   "author": "Luca Candussi",
   "license": "ISC",
-  "homepage": "https://youngZwiebelandtheGemuseBeat.github.io/online-card-game-framework",
+  "homepage": "https://youngzwiebelandthegemusebeat.github.io/online-card-game-framework/",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
